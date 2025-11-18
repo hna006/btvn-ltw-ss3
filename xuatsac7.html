@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đăng Ký Thành Viên</title>
+</head>
+<body>
+    <label>Họ và tên:</label>
+    <input type="text" name="fullname"><br><br>
+
+    <label>Ngày sinh:</label>
+    <input type="date" name="dob"><br><br>
+
+    
+    <label>Giới tính:</label>
+    <input type="radio" name="gender" value="Nam"> Nam
+    <input type="radio" name="gender" value="Nữ"> Nữ<br><br>
+
+    
+    <label>Số điện thoại:</label>
+    <input type="tel" name="phone"><br><br>
+
+    
+    <label>Email:</label>
+    <input type="email" name="email"><br><br>
+
+    
+    <label>Địa chỉ:</label>
+    <textarea type="text" name="address"><br><br>
+
+    
+    <label>Vai trò trong nhóm:</label>
+    <select name="role">
+      <option value="thanhvien">Thành viên</option>
+      <option value="quanly">Quản lý</option>
+    </select><br><br>
+
+
+    <label>Sở thích:</label>
+    <input type="text" name="hobbies"><br><br>
+
+    
+    <label>Kỹ năng:</label><br>
+    <textarea name="reason" rows="2" cols="40"></textarea><br><br>
+
+    
+    <label> Thời gian rảnh:</label>
+    <input type="checkbox" name="" id="">Sáng
+    <input type="checkbox" name="" id="">Chiều 
+    <input type="checkbox" name="" id="">Trưa
+
+   <br> <label>Lý do tham gia nhóm:</label><br>
+    <textarea name="reason" rows="4" cols="40"></textarea><br><br>
+
+    <label for="favcolor">Màu yêu thích:</label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+
+     <label>Đăng ký nhận bảng tin:</label>
+      <input type="checkbox" name="notify" value="yes"> Có<br>
+
+    <label>Nhận thông báo qua:</label>
+    <input type="radio" name="notify" value="email"> Email
+    <input type="radio" name="notify" value="sms"> SMS<br><br>
+
+    <button type="submit">Đăng ký thành viên</button>
+  </form>
+</body>
+</html>
